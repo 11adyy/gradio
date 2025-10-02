@@ -2,6 +2,7 @@
 use eframe::{egui, App, CreationContext, Frame};
 use chrono;
 mod setter;
+mod processor;
 
 struct SetterApp {
     line: usize,
